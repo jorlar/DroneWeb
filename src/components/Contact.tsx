@@ -224,19 +224,19 @@ function Contact() {
                 </div>
               </div>
             </div>
+          </div>
 
-            <div className='card-industrial p-8'>
-              <h2 className='text-2xl font-bold text-industrial-950 mb-4'>
-                Nødtjenester
-              </h2>
-              <p className='text-industrial-600'>
-                I nødstilfeller, ved behov for våre tjenester i forbindelse med
-                hendelser, leteaksjoner ol, ring oss så stiller vi opp
-              </p>
-              <p className='text-xl font-bold text-energy-500 mt-2'>
-                +47 959 61 415
-              </p>
-            </div>
+          <div className='card-industrial p-8'>
+            <h2 className='text-2xl font-bold text-industrial-950 mb-4'>
+              Nødtjenester
+            </h2>
+            <p className='text-industrial-600'>
+              I nødstilfeller, ved behov for våre tjenester i forbindelse med
+              hendelser, leteaksjoner ol, ring oss så stiller vi opp
+            </p>
+            <p className='text-xl font-bold text-energy-500 mt-2'>
+              +47 959 61 415
+            </p>
           </div>
         </div>
       </div>
