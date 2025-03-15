@@ -7,60 +7,75 @@ type MediaItem = {
   thumbnail: string;
   title: string;
   description: string;
+  videoType?: "youtube" | "vimeo";
 };
 
 const mediaItems: MediaItem[] = [
   {
     type: "image",
-    url: "https://unsplash.com/photos/8-xwWFnlEnU",
-    thumbnail: "https://unsplash.com/photos/8-xwWFnlEnU",
-    title: "Aerial City View",
-    description: "Stunning aerial view of a modern cityscape at sunset",
+    url: "https://images.unsplash.com/photo-1742045500931-442b168b12e4?q=80&w=3161&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    thumbnail:
+      "https://images.unsplash.com/photo-1742045500931-442b168b12e4?q=80&w=3161&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "M/B Bitihorn by winter",
+    description:
+      "Norges høyestseilende passasjerbåt i vinteropplag ved innsjøen Bygdin",
   },
   {
     type: "video",
-    url: "https://youtu.be/yoMC0xvCaDk?si=uWPlaC1Zoxz2CaN4",
+    url: "https://www.youtube.com/embed/yoMC0xvCaDk?si=ZGwQB85OAw5z-Qxo",
     thumbnail:
-      "https://images.unsplash.com/photo-1506947411487-a56738267384?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    title: "Coastal Drone Flight",
-    description: "Beautiful drone footage of coastal landscapes",
+      "https://images.unsplash.com/photo-1742054985592-ab30f8ec4023?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Showcase - Slidreåsen og Stølsvidda",
+    description:
+      "Herlig dronevideo med footage fra Stølsvidda og Slidreåsen i Valdres",
+    videoType: "youtube",
   },
   {
     type: "image",
-    url: "https://images.unsplash.com/photo-1508614589041-895b88991e3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    url: "https://images.unsplash.com/photo-1742055350278-9b594483a26e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D",
     thumbnail:
-      "https://images.unsplash.com/photo-1508614589041-895b88991e3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    title: "Mountain Range",
-    description: "Aerial view of snow-capped mountain ranges",
+      "https://images.unsplash.com/photo-1742055350278-9b594483a26e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D",
+    title: "Bygdin - 2025",
+    description: "Bilde fra innspeksjon av vassdraget i mars 2025",
   },
+  // {
+  //   type: "video",
+  //   url: "https://www.youtube.com/embed/LXb3EKWsInQ",
+  //   thumbnail:
+  //     "https://images.unsplash.com/photo-1552163298-c2efc45b5acc?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+  //   title: "Industrial Inspection",
+  //   description: "Professional drone inspection of industrial facilities",
+  //   videoType: "youtube",
+  // },
   {
     type: "image",
-    url: "https://images.unsplash.com/photo-1534996858221-380b92700493?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    url: "https://images.unsplash.com/photo-1742055931859-77f65b68a939?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     thumbnail:
-      "https://images.unsplash.com/photo-1534996858221-380b92700493?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    title: "Agricultural Fields",
-    description: "Geometric patterns of agricultural landscapes from above",
+      "https://images.unsplash.com/photo-1742055931859-77f65b68a939?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Kujakt - Slidre",
+    description: "Bistand ved sanking av kyr i Valdres 2024",
   },
-  {
-    type: "video",
-    url: "https://player.vimeo.com/video/517935167",
-    thumbnail:
-      "https://images.unsplash.com/photo-1552163298-c2efc45b5acc?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    title: "Urban Exploration",
-    description: "Dynamic aerial footage of urban landscapes",
-  },
-  {
-    type: "image",
-    url: "https://images.unsplash.com/photo-1494894194458-0174142560c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1494894194458-0174142560c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-    title: "Beach Sunset",
-    description: "Breathtaking aerial view of a tropical beach at sunset",
-  },
+  // {
+  //   type: "video",
+  //   url: "https://www.youtube.com/embed/yoMC0xvCaDk?si=ZGwQB85OAw5z-Qxo",
+  //   thumbnail:
+  //     "https://images.unsplash.com/photo-1473968512647-3e447244af8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+  //   title: "Cinematic Drone Reel",
+  //   description: "Showcase of our cinematic drone capabilities",
+  //   videoType: "youtube",
+  // },
 ];
 
 function Gallery() {
   const [selectedItem, setSelectedItem] = useState<MediaItem | null>(null);
+
+  const getVideoEmbedUrl = (item: MediaItem) => {
+    if (item.videoType === "youtube") {
+      // Add additional YouTube parameters for better embedding
+      return `${item.url}?autoplay=1&rel=0&modestbranding=1`;
+    }
+    return item.url;
+  };
 
   return (
     <div className='pt-16 min-h-screen bg-industrial-100'>
@@ -72,8 +87,8 @@ function Gallery() {
               Vårt <span className='text-energy-500'>Galleri</span>
             </h1>
             <p className='mt-4 text-xl text-industrial-300'>
-              Ta en titt på bilder og videoer fra tidligere jobber vi har
-              utført.
+              Her finner du en samling av tidligere jobber og oppdrag vi har
+              hatt.
             </p>
           </div>
         </div>
@@ -141,8 +156,8 @@ function Gallery() {
                 ) : (
                   <div className='aspect-w-16 aspect-h-9'>
                     <iframe
-                      src={selectedItem.url}
-                      allow='autoplay; fullscreen; picture-in-picture'
+                      src={getVideoEmbedUrl(selectedItem)}
+                      allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                       allowFullScreen
                       className='w-full h-full rounded-lg border-2 border-industrial-950'></iframe>
                   </div>

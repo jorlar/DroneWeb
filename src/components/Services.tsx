@@ -169,7 +169,11 @@ function Services() {
                     </li>
                   ))}
                 </ul>
-                <button className='mt-8 w-full btn-primary'>Ta Kontakt</button>
+                <a
+                  href='/contact'
+                  className='btn-primary inline-flex items-center'>
+                  Ta Kontakt
+                </a>
               </div>
             </div>
           ))}

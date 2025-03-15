@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import { Bone as Drone } from "lucide-react";
+import { Bone as Drone, Menu, X } from "lucide-react";
 import Gallery from "./components/Gallery";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import HomePage from "./components/HomePage.tsx";
 
 function App() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setMobileMenuOpen(false);
+  };
+
   return (
     <div className='min-h-screen bg-industrial-100'>
       {/* Navigation */}
@@ -21,6 +31,7 @@ function App() {
                 </span>
               </Link>
             </div>
+            {/* Desktop Menu */}
             <div className='hidden md:flex space-x-1'>
               <Link
                 to='/'
@@ -40,9 +51,57 @@ function App() {
               <Link
                 to='/contact'
                 className='px-4 py-2 text-white hover:bg-industrial-800 hover:text-energy-500 transition-colors duration-200'>
-                Kontakt
+                Kontakt Oss
               </Link>
             </div>
+
+            {/* Mobile Menu Button */}
+            <div className='md:hidden'>
+              <button
+                onClick={toggleMenu}
+                className='p-2 rounded-md hover:bg-industrial-800 hover:text-energy-500 transition-colors duration-200'>
+                {mobileMenuOpen ? (
+                  <X className='h-6 w-6' />
+                ) : (
+                  <Menu className='h-6 w-6' />
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* Mobile Menu Panel */}
+        <div
+          className={`md:hidden transition-all duration-300 ease-in-out ${
+            mobileMenuOpen
+              ? "max-h-64 opacity-100 border-b-2 border-energy-500"
+              : "max-h-0 opacity-0 overflow-hidden"
+          }`}>
+          <div className='px-4 pt-2 pb-4 space-y-1 bg-industrial-950'>
+            <Link
+              to='/'
+              className='block px-4 py-3 text-white hover:bg-industrial-800 hover:text-energy-500 transition-colors duration-200 border-2 border-industrial-800'
+              onClick={closeMenu}>
+              Hjem
+            </Link>
+            <Link
+              to='/services'
+              className='block px-4 py-3 text-white hover:bg-industrial-800 hover:text-energy-500 transition-colors duration-200 border-2 border-industrial-800'
+              onClick={closeMenu}>
+              Tjenester
+            </Link>
+            <Link
+              to='/gallery'
+              className='block px-4 py-3 text-white hover:bg-industrial-800 hover:text-energy-500 transition-colors duration-200 border-2 border-industrial-800'
+              onClick={closeMenu}>
+              Galleri
+            </Link>
+            <Link
+              to='/contact'
+              className='block px-4 py-3 text-white hover:bg-industrial-800 hover:text-energy-500 transition-colors duration-200 border-2 border-industrial-800'
+              onClick={closeMenu}>
+              Kontakt Oss
+            </Link>
           </div>
         </div>
       </nav>

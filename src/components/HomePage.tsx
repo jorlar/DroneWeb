@@ -19,7 +19,7 @@ function HomePage() {
               </p>
               <div className='mt-8'>
                 <a
-                  href='#contact'
+                  href='/contact'
                   className='btn-primary inline-flex items-center'>
                   Start her
                   <ChevronRight className='ml-2 h-5 w-5' />
