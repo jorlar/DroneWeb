@@ -38,6 +38,14 @@ const mediaItems: MediaItem[] = [
     title: "Bygdin - 2025",
     description: "Bilde fra innspeksjon av vassdraget i mars 2025",
   },
+  {
+    type: "image",
+    url: "https://images.unsplash.com/photo-1742118454773-7062de10ff13?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    thumbnail:
+      "https://images.unsplash.com/photo-1742118454773-7062de10ff13?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Takinnspeksjon - 2024",
+    description: "Bilde tatt under takinnspeksjon på skifertak i Slidre, 2024",
+  },
   // {
   //   type: "video",
   //   url: "https://www.youtube.com/embed/LXb3EKWsInQ",
