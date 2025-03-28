@@ -135,7 +135,7 @@ function Services() {
               Våre <span className='text-energy-500'>Tjenester</span>
             </h1>
             <p className='mt-4 text-xl text-industrial-300'>
-              Gjennomgående droneløsninger for enhver industripartner
+              Gjennomgående droneløsninger for enhver kunde
             </p>
           </div>
         </div>
@@ -169,11 +169,11 @@ function Services() {
                     </li>
                   ))}
                 </ul>
-                <a
+                {/* <a
                   href='/contact'
                   className='btn-primary inline-flex items-center'>
                   Ta Kontakt
-                </a>
+                </a> */}
               </div>
             </div>
           ))}
