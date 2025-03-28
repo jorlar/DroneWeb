@@ -25,7 +25,7 @@ const services: Service[] = [
     title: "Luft Fotografering",
     description:
       "Profesjonelle dronebilder for eiendom, eventer og markedsføring",
-    price: "5000 NOK",
+    price: "2500 NOK",
     features: [
       "Høy-oppløselige bilder",
       "Profesjonell redigering",
@@ -39,7 +39,7 @@ const services: Service[] = [
     title: "Drone Video",
     description:
       "Cinematiske dronevideoer for kommersiell bruk og kreative prosjekter",
-    price: "10.000 NOK",
+    price: "4000 NOK",
     features: [
       "4K video",
       "Custom flyplan",
@@ -52,7 +52,7 @@ const services: Service[] = [
     icon: <Building2 className='h-8 w-8' />,
     title: "Innspeksjon av infrastruktur",
     description: "Detaljert innspeksjon av bygninger og infrastruktur fra luft",
-    price: "15.000 NOK",
+    price: "7000 NOK",
     features: [
       "Termiske bilder",
       "Detaljerte rapporter",
@@ -65,7 +65,7 @@ const services: Service[] = [
     icon: <Map className='h-8 w-8' />,
     title: "Kartleggingstjenester",
     description: "Presise kartlegginsgtjenester fra luft",
-    price: "Fra 15.000 NOK",
+    price: "Fra 7500 NOK",
     features: [
       "Topografisk kartlegging",
       "Volumkalkulasjoner",
@@ -77,7 +77,7 @@ const services: Service[] = [
     icon: <Mountain className='h-8 w-8' />,
     title: "Miljø monitorering",
     description: "Dronetjenester for miljøvurdering og monitorering",
-    price: "Fra 20.000 NOK",
+    price: "Fra 7500 NOK",
     features: [
       "Analyse av vegetasjon",
       "Monitorering av dyreliv",
@@ -89,7 +89,7 @@ const services: Service[] = [
     icon: <Factory className='h-8 w-8' />,
     title: "Industriell innspeksjon",
     description: "Gjennomgående innspeksjon av industrielle byggeplasser",
-    price: "Fra 15.000 NOK",
+    price: "Fra 7500 NOK",
     features: [
       "Innspeksjon av sikkerhet",
       "Innspeksjon av utstyr i høyden",
@@ -102,7 +102,7 @@ const services: Service[] = [
     title: "Byggetrinnsinnspeksjon",
     description:
       "Jevnlig dokumentasjon av byggeprosjekter for fremgangsrapport",
-    price: "Fra 50.000 NOK",
+    price: "Fra 15 000 NOK",
     features: [
       "Ukentlig oppdatering",
       "Fremgangsrapporter",
@@ -114,7 +114,7 @@ const services: Service[] = [
     icon: <Radio className='h-8 w-8' />,
     title: "Linjeinnspeksjon",
     description: "Luftinnspeksjon av telecom- og strømlinjer",
-    price: "Fra 20.000 NOK",
+    price: "Fra 10 000 NOK",
     features: [
       "Innspeksjon av teleantenner",
       "Utstyrsanalyse",
