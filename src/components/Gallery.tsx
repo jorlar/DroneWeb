@@ -63,6 +63,14 @@ const mediaItems: MediaItem[] = [
     title: "Kujakt - Slidre",
     description: "Bistand ved sanking av kyr i Valdres 2024",
   },
+  {
+    type: "image",
+    url: "https://images.unsplash.com/photo-1743196809417-cf5b20acc06b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D",
+    thumbnail:
+      "https://images.unsplash.com/photo-1743196809417-cf5b20acc06b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D",
+    title: "Takinspeksjon - Røn 2025",
+    description: "Inspeksjon av tak på Røn Samfunnshus mars 2025",
+  },
   // {
   //   type: "video",
   //   url: "https://www.youtube.com/embed/yoMC0xvCaDk?si=ZGwQB85OAw5z-Qxo",
