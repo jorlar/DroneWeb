@@ -17,14 +17,14 @@ function HomePage() {
                 Profesjonelle droneløsninger for luftfotografi, video og
                 innspeksjon
               </p>
-              <div className='mt-8'>
+              {/* <div className='mt-8'>
                 <a
                   href='/contact'
                   className='btn-primary inline-flex items-center'>
                   Start her
                   <ChevronRight className='ml-2 h-5 w-5' />
                 </a>
-              </div>
+              </div> */}
             </div>
             <div className='relative h-64 md:h-96'>
               <img
