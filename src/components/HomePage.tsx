@@ -90,7 +90,7 @@ function HomePage() {
           <div className='mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
             <ServiceCard
               icon={<Cloud className='h-8 w-8' />}
-              title='Luft Fotografering'
+              title='Orto Foto'
               description='Høyoppløselige bilder og video for bygningsmasser, eventer, og markedsføring'
             />
             <ServiceCard
