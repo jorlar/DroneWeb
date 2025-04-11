@@ -77,7 +77,7 @@ const mediaItems: MediaItem[] = [
     thumbnail:
       "https://images.unsplash.com/photo-1744399099412-a3e8ed922f1b?q=80&w=2800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Inspesksjon av solceller",
-    description: "Inspeksjon av solceller i Valdres, 2025",
+    description: "Inspeksjon av solceller med termisk kamera i Valdres, 2025",
   },
   // {
   //   type: "video",
