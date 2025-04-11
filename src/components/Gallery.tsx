@@ -71,6 +71,14 @@ const mediaItems: MediaItem[] = [
     title: "Takinspeksjon - Røn 2025",
     description: "Inspeksjon av tak på Røn Samfunnshus mars 2025",
   },
+  {
+    type: "image",
+    url: "https://images.unsplash.com/photo-1744399099412-a3e8ed922f1b?q=80&w=2800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    thumbnail:
+      "https://images.unsplash.com/photo-1744399099412-a3e8ed922f1b?q=80&w=2800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Inspesksjon av solceller",
+    description: "Inspeksjon av solceller i Valdres, 2025",
+  },
   // {
   //   type: "video",
   //   url: "https://www.youtube.com/embed/yoMC0xvCaDk?si=ZGwQB85OAw5z-Qxo",
